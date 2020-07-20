@@ -31,6 +31,22 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Организации.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="ae00d6b6-1422-4e66-8dae-5892366bc17d">
+    <name>ИНН</name>
+    <synonym>
+      <key>en</key>
+      <value>ИНН</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="5fab0f46-7878-4882-a7ed-ec519cfb41a3">
     <name>ФормаЭлемента</name>
     <synonym>
